@@ -1,4 +1,8 @@
 
+body{
+  background-color: lightblue;
+}
+
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -30,7 +34,29 @@
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
-  /*border: 1px solid #ccc;*/
+  /*padding: 6px 12px;*/
+  border: 1px solid #ccc;
   border-top: none;
+}
+
+.grid-container{
+  display: grid;
+  gap: 10px;
+  background-color: rgb(190, 190, 231);
+}
+
+.grid-container-1{
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+@media (max-width: 769px){
+  .grid-container-1{
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+}
+
+@media (min-width: 1025px){
+
 }
