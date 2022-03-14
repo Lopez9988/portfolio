@@ -49,11 +49,13 @@ p{
   display: none;
   padding: 10px 20px 10px 20px;
   border-top: none;
+  border-color: transparent;
 }
 
 .grid-container{
   display: grid;
   gap: 10px; 
+  background-color: transparent;
 }
 
 .grid-container > div{ 
