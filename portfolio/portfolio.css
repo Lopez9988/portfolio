@@ -58,6 +58,7 @@ p{
 
 .grid-container > div{
   /*background-color: lightblue;*/
+  /*background-color: transparent;*/
   /*text-align: left;*/
 }
 
@@ -77,4 +78,8 @@ p{
     grid-template-columns: 100%;
     grid-template-rows: auto;
   }
+}
+
+form{
+  width: 500px; 
 }
