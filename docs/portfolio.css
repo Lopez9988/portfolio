@@ -62,8 +62,8 @@ p{
 }
 
 .grid-container > div{ 
-  background-color: transparent;  
-  align-items: center;
+  background-color: transparent;   
+  align-content: center;
 }
 
 @media (max-width: 769px){
